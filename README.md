@@ -2,7 +2,7 @@
 
 ## Gambar Hasil Run
 
-![Hasil Run](/hasilProgram1.png)
-![Hasil Run](/hasilProgram2.png)
-![Hasil Run](/hasilProgram3.png)
-![Hasil Run](/hasilProgram4.png)
+![Hasil Run](/HasilProgram1.png)
+![Hasil Run](/HasilProgram2.png)
+![Hasil Run](/HasilProgram3.png)
+![Hasil Run](/HasilProgram4.png)
