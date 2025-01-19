@@ -1,5 +1,4 @@
 # Trust Builder
-memorize and matching card game in Java
 
 ## Gambar Hasil Run
 
