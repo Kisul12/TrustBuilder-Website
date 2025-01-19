@@ -1,0 +1,48 @@
+.title {
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-left: 50px;
+}
+form ul.form {
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul.form li {
+    margin-bottom: 20px;
+}
+
+form ul.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+form ul.form input,
+form ul.form textarea {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
+    border: 1px solid #ccc;
+}
+
+form ul.form button {
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #F4A896;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form ul.form button:hover {
+    background-color: #e49485;
+}

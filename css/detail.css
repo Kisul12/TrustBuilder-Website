@@ -1,0 +1,192 @@
+.produk_container1 {
+    height: 400px;
+    /* width: 90%; */
+    background-color: #333333;
+    display: flex;
+    justify-content: center; /* Menyusun gambar secara horizontal di tengah */
+    align-items: center; /* Menyusun gambar secara vertikal di tengah */
+}
+
+.produk_container img {
+    max-width: 100%;
+    margin: 5px; /* Menambahkan margin antar gambar */
+}
+
+.produk_container-right {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column; /* Menyusun gambar secara vertikal */
+    align-items: center; /* Menyusun gambar di tengah secara horizontal */
+    justify-content: center; /* Menyusun gambar di tengah secara vertikal */
+}
+
+.produk_container-right img {
+    margin: 10px;
+    height: 170px;
+    border: 15px;
+}
+
+.produk_container2 {
+    /* background-color: blue; */
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+.produk_container2-left {   
+    width: 57%;
+    /* height: 500px; */
+    /* background-color: antiquewhite; */
+}
+
+.produk_container2-right {
+    margin-left: 50px;
+    width: 40%;
+    /* height: 500px; */
+}
+
+
+.roduk_container2-left-header {
+    margin-bottom: 50px;    
+}
+
+.produk_container2-left-header h1{
+    font-family: montserrat;
+}
+.produk_container2-left-header p {
+    font-family: montserrat;
+    font-weight: normal;
+}
+
+.produk_container2-left-price {
+    font-family: montserrat;
+    color: red;
+    font-size: 25px;
+    display: flex;
+}
+
+.produk_container2-left-price button {
+    color: white;
+    width: 100px;
+    margin-left: 300px;
+    background-color: #2b90cc;
+    border-radius: 30px;
+}
+
+.roduk_container2-left-description h4 {
+    /* width: 200px; */
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.waiting {
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: #2b90cc;
+    display: flex;            /* Mengaktifkan Flexbox */
+    justify-content: center;  /* Menyusun secara horizontal di tengah */
+    align-items: center;
+    border-radius: 20px;      /* Menyusun secara vertikal di tengah */
+}
+
+.waiting p {
+    font-family: Arial, sans-serif;
+}
+
+.tanggal {
+    margin-left: 200px;
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tanggal-left {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.tanggal-right {
+    font-family: arial;
+    flex: 2;
+    padding: 20px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+.month {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.days div {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.days div:hover {
+    background-color: #e0e0e0;
+}
+
+.description {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.event {
+    padding: 20px;
+    display: flex;
+
+}
+
+.event[data-date="1"], .event[data-date="15"] {
+    display: block;
+}
+
+.description h2 {
+    margin-bottom: 10px;
+}
+
+.pelunasan {
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: #2b90cc;
+    display: flex;            /* Mengaktifkan Flexbox */
+    justify-content: center;  /* Menyusun secara horizontal di tengah */
+    align-items: center;
+    border-radius: 20px;      /* Menyusun secara vertikal di tengah */
+}
+
